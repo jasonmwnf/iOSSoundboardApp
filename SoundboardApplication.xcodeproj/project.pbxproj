@@ -15,6 +15,7 @@
 		96D5A59C1C5F1BC100F7F860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A59A1C5F1BC100F7F860 /* LaunchScreen.storyboard */; };
 		96D5A5A71C5F1BC100F7F860 /* SoundboardApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A5A61C5F1BC100F7F860 /* SoundboardApplicationTests.m */; };
 		96D5A5B21C5F1BC100F7F860 /* SoundboardApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A5B11C5F1BC100F7F860 /* SoundboardApplicationUITests.m */; };
+		96D5A5C01C5F1DBD00F7F860 /* DrumSounds in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A5BF1C5F1DBD00F7F860 /* DrumSounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		96D5A5AD1C5F1BC100F7F860 /* SoundboardApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundboardApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D5A5B11C5F1BC100F7F860 /* SoundboardApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundboardApplicationUITests.m; sourceTree = "<group>"; };
 		96D5A5B31C5F1BC100F7F860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D5A5BF1C5F1DBD00F7F860 /* DrumSounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DrumSounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		96D5A58C1C5F1BC100F7F860 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				96D5A5BF1C5F1DBD00F7F860 /* DrumSounds */,
 				96D5A58D1C5F1BC100F7F860 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -245,6 +248,7 @@
 			files = (
 				96D5A59C1C5F1BC100F7F860 /* LaunchScreen.storyboard in Resources */,
 				96D5A5991C5F1BC100F7F860 /* Assets.xcassets in Resources */,
+				96D5A5C01C5F1DBD00F7F860 /* DrumSounds in Resources */,
 				96D5A5971C5F1BC100F7F860 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
