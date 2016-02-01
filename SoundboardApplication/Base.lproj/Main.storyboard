@@ -16,12 +16,71 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hf-JQ-8bf">
+                                <rect key="frame" x="20" y="28" width="183" height="50"/>
+                                <state key="normal" title="Drum 1"/>
+                                <connections>
+                                    <action selector="drum1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TVi-Gv-p3X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1YM-xi-Bta">
+                                <rect key="frame" x="211" y="28" width="183" height="50"/>
+                                <state key="normal" title="Drum 2"/>
+                                <connections>
+                                    <action selector="drum2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q0h-Ug-STV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dw9-Hu-YfF">
+                                <rect key="frame" x="20" y="86" width="183" height="50"/>
+                                <state key="normal" title="Drum 3"/>
+                                <connections>
+                                    <action selector="drum3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vin-lK-Z1i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0g-xS-RXY">
+                                <rect key="frame" x="211" y="92" width="183" height="50"/>
+                                <state key="normal" title="Drum 4"/>
+                                <connections>
+                                    <action selector="drum4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SYL-7u-uya"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bA8-g5-xE8">
+                                <rect key="frame" x="211" y="144" width="183" height="50"/>
+                                <state key="normal" title="Cymbol 1"/>
+                                <connections>
+                                    <action selector="cymbol1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ogt-sq-ffw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mqh-lN-pFt">
+                                <rect key="frame" x="20" y="202" width="183" height="50"/>
+                                <state key="normal" title="Cymbol 2"/>
+                                <connections>
+                                    <action selector="cymbol2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iI3-6O-Afd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STS-8H-X1f">
+                                <rect key="frame" x="211" y="202" width="183" height="50"/>
+                                <state key="normal" title="Cymbol 3"/>
+                                <connections>
+                                    <action selector="cymbol3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z6y-bC-ax4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8S-J8-Mbc">
+                                <rect key="frame" x="20" y="138" width="183" height="50"/>
+                                <state key="normal" title="Drum 5"/>
+                                <connections>
+                                    <action selector="drum5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xlk-GH-BFm"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="167" y="330"/>
         </scene>
     </scenes>
 </document>
